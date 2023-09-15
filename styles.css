@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-attachment: fixed; /* Fixe l'image de fond pendant le défilement */
+}
+.rounded-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(11, 192, 87);
+    color: rgb(5, 5, 5);
+    border-radius: 20px; /* Coins arrondis */
+    border: none;
+    cursor: pointer;
+    width: 150px; 
+    height: 50px;
+  }
+
+  .custom-button {
+    background-color: rgb(42, 161, 42); /* Couleur verte, vous pouvez changer cette valeur */
+    color: white; /* Couleur du texte, ici blanc */
+    border: none; /* Supprimer la bordure par défaut du bouton */
+    padding: 10px 20px; /* Espacement intérieur du bouton */
+}
+
+.floating-button {
+  display: block;
+  color: white;
+  padding: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+  background-color: green;  
+  border-radius: 15px; 
+  line-height: normal;
+  width:100%;
+  height: 50%;
+  text-align: center;
+}
+
+.floating-button1 {
+  display: block;
+  color: white;
+  cursor: pointer;
+  background-color: rgb(0, 128, 126);
+  background-color: green;
+  border: none;
+  border-radius: 15px;
+  padding: 10px;
+  margin-top: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+
+.buton {
+  background-color: green; 
+  width: 120px; 
+  height: 30px; 
+  border: 5px; 
+  font-weight: bold;
+  text-size-adjust: 20;
+}
+.cent-div{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+
+}
+
+#monBouton {            
+            transition: transform 0.3s ease-in-out; /* Transition pour le mouvement */
+        }
+        
+        
+#monBouton:hover {
+	transform: scale(1.1); /* Exemple : agrandir le bouton au survol */
+}
+    
+
+
+
+
+
